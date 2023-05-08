@@ -1,8 +1,38 @@
 body {
-  padding: 50px;
+  background-color: cornsilk;
   font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00b7ff;
+}
+nav{
+  text-align: center;
+}
+nav a{
+  text-decoration: none;
+  font-size: 200%;
+  font-weight: bolder;
+}
+.listContainer{
+  display:flex ;
+  flex-direction: column;
+  align-items: center;
+}
+.droneContainer{
+  width: 200px;
+  
+  background-color: lightcoral
+}
+.name{
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+  gap: 5px;
+  
+}
+.list{
+  margin-right: 27px;
+  list-style: none;
+  
 }
